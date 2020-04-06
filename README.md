@@ -10,9 +10,10 @@
 This is a Convolutional Neural Networks (CNN) project in the Data-Scientist Nanodegree.  
 I have learned how to build a pipeline that can be used within a web app to process real-world, user-supplied images.    
 Given an image of a dog, this algorithm will identify an estimate of the canine’s breed.  If supplied an image of a human, the code will identify the resembling dog breed.   
+I choose to use ResNet-50 for transfer learning in this project.
 
 The libraries I used are Numpy, Tensorflow, OpenCV, Flask, PIL.      
-Please refer to the [requirement.txt](https://github.com/Data-Semi/dog-project-CNN/blob/master/dogbreed_webapp/requirements.txt) file for detail.  
+Please refer to the [dogbreed_webapp/requirements.txt](https://github.com/Data-Semi/dog-project-CNN/blob/master/dogbreed_webapp/requirements.txt) file for detail.  
 
 Files in the repository:  
 I have folked from udacity/dog-project, and added below files and folder.  
@@ -30,4 +31,4 @@ About the web application,please refer to this readme file. [dogbreed_webapp\Rea
  
 ![Web Application Example][image4]  
 
-For more information, please refer to folked original [README_folked.md](https://github.com/Data-Semi/dog-project-CNN/blob/master/README_folked.md)  
+For more information overall this project , please refer to folked original [README_folked.md](https://github.com/Data-Semi/dog-project-CNN/blob/master/README_folked.md)  
