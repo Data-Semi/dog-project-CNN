@@ -17,8 +17,8 @@ Please refer to the [dogbreed_webapp/requirements.txt](https://github.com/Data-S
 
 Files in the repository:  
 I have folked from udacity/dog-project, and added below files and folder.  
-+ [dog_app_report_20200406.ipynb](https://github.com/Data-Semi/dog-project-CNN/blob/master/dog_app_report_20200406.ipynb)  
-+ [dog_app_report_20200406.html](https://github.com/Data-Semi/dog-project-CNN/blob/master/dog_app_report_20200406.html)  
++ [dog_app.ipynb](https://github.com/Data-Semi/dog-project-CNN/blob/master/dog_app.ipynb)  
++ [dog_app.html](https://github.com/Data-Semi/dog-project-CNN/blob/master/dog_app.html)  
 + [dogbreed_webapp](https://github.com/Data-Semi/dog-project-CNN/tree/master/dogbreed_webapp)  
 [dogbreed_webapp](https://github.com/Data-Semi/dog-project-CNN/tree/master/dogbreed_webapp) folder includes a web application which has the same algorithm with above Jupyter notebooks.  
 The web program can be used as below.  
