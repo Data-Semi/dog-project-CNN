@@ -1,0 +1,36 @@
+
+Dog Breed Detector
+https://cnn-resnet50-dogbreed-detector.herokuapp.com/
+
+This is an web application of dog breed classification project in Udacity's Data-Scinetist Nanodegree course.
+uploader.py is the main file to run the web application.
+Drag&Drop a image file on the web page (index.html), it will give an answer as below.
+- if a dog is detected in the image, return the predicted breed.
+- if a human is detected in the image, return the resembling dog breed.
+- if neither is detected in the image, provide output that indicates an error.
+
+Heroku's git:
+To https://git.heroku.com/cnn-resnet50-dogbreed-detector.git
+-----------------------------------------------------------------------------------
+How to use these files after download all of this project?
+When I was programming this project. I was using Windows OS and Visual Code terminal.
+1. Open the Visual Code terminal,under the `dogbreedenv` folder, type command: Scripts\Activate.ps1
+2. under the `dogbreed_webapp` folder, type command:python uploader.py
+
+------------------------------------------------------------------------------------
+To avoid many errors, I did some modification for the environment.
+
+1.Install heroku3 instead of heroku. The reason is as below. 
+    When I pip install heroku, I get an error as below.
+    ERROR: pandas 1.0.3 has requirement python-dateutil>=2.6.1, but you'll have python-dateutil 1.5 which is incompatible.
+    When I git push heroku master, I also get an error as below
+    ERROR: heroku 0.1.4 has requirement python-dateutil==1.5, but you'll have python-dateutil 2.6.1 which is
+    incompatible.
+
+2.pip install opencv-python to make cv2 available.
+3.installed pillow to make PIL available.
+4.create Aptfile, and typed command in terminal
+    When I update to heroku, I get cv2 not found libsm6 error.
+    I fllowed the guid here: https://qiita.com/haru1843/items/210cb08024195b9d1bc8
+    The guide indicates: Before I type in terminal "git push heroku master", I typed below commands in the terminal,
+    $ heroku buildpacks:add --index 1 https://github.com/heroku/heroku-buildpack-apt
