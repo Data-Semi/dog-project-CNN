@@ -20,14 +20,14 @@ I have folked from udacity/dog-project, and added below files and folder.
 + [dog_app_report_20200406.ipynb](https://github.com/Data-Semi/dog-project-CNN/blob/master/dog_app_report_20200406.ipynb)  
 + [dog_app_report_20200406.html](https://github.com/Data-Semi/dog-project-CNN/blob/master/dog_app_report_20200406.html)  
 + [dogbreed_webapp](https://github.com/Data-Semi/dog-project-CNN/tree/master/dogbreed_webapp)  
-[dogbreed_webapp](https://github.com/Data-Semi/dog-project-CNN/tree/master/dogbreed_webapp) folder includes an web application which have same algorithm with above Jupyter notebooks.  
-The web program will be action as below.  
-Drag&Drop a image file on the web page (index.html), it will give an answer as below.  
+[dogbreed_webapp](https://github.com/Data-Semi/dog-project-CNN/tree/master/dogbreed_webapp) folder includes a web application which has the same algorithm with above Jupyter notebooks.  
+The web program can be used as below.  
+Drag&Drop an image file on the web page (index.html), it will give an answer as below.  
 - if a dog is detected in the image, return the predicted breed.  
 - if a human is detected in the image, return the resembling dog breed.  
-- if neither is detected in the image, provide output that indicates an error.  
+- if neither is detected in the image, provide an output that indicates an error.  
 You can use the web application here: https://cnn-resnet50-dogbreed-detector.herokuapp.com/    
-About the web application,please refer to this readme file. [dogbreed_webapp\Readme.rm](https://github.com/Data-Semi/dog-project-CNN/blob/master/dogbreed_webapp/Readme.rm)   
+About the web application, please refer to this readme file. [dogbreed_webapp\Readme.rm](https://github.com/Data-Semi/dog-project-CNN/blob/master/dogbreed_webapp/Readme.rm)   
  
 ![Web Application Example][image4]  
 
