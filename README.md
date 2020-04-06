@@ -24,7 +24,6 @@ I have folked from udacity/dog-project, and added below files and folder.
 
 ## About the web application.
 [dogbreed_webapp](https://github.com/Data-Semi/dog-project-CNN/tree/master/dogbreed_webapp) folder includes a web application which has the same algorithm with above Jupyter notebooks.  
-You can use the web application here: https://cnn-resnet50-dogbreed-detector.herokuapp.com/    
 ### How to use the web application.  
  Drag&Drop an image file on the web page (index.html), it will give an answer as below.  
 - if a dog is detected in the image, return the predicted breed.  
@@ -32,6 +31,7 @@ You can use the web application here: https://cnn-resnet50-dogbreed-detector.her
 - if neither is detected in the image, provide an output that indicates an error.  
 
 About the web application, please refer to this readme file. [dogbreed_webapp\Readme.rm](https://github.com/Data-Semi/dog-project-CNN/blob/master/dogbreed_webapp/Readme.rm)   
+You can use the web application here: https://cnn-resnet50-dogbreed-detector.herokuapp.com/    
  
 ![Web Application Example][image4]  
 
