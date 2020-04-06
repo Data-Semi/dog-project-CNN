@@ -31,4 +31,10 @@ About the web application, please refer to this readme file. [dogbreed_webapp\Re
  
 ![Web Application Example][image4]  
 
+## More insights for this project
+The output is better than I expected, the accuracy is 80%! I think I can improve my algorithm with below 3 points.  
+
++ Use image augmentation to get better accuracy.  
++ Pre process the image to make it more clear before any other process.  
++ Skip dog_detectorto judge there is a dog or not, just use the result of Resnet50_predict_breed to see the top probability is larger than 50% or not. For example, if Resnet50_predict_breed returns a breed and the probability is larger than 50%,than return as a dog breed, else return there is no dog inside the image file.  
 For more information overall this project , please refer to folked original [README_folked.md](https://github.com/Data-Semi/dog-project-CNN/blob/master/README_folked.md)  
